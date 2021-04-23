@@ -10,7 +10,7 @@ const Statistics = (props) => {
       <span className={statisticsItem}>Bad: {bad}</span>
       <span className={statisticsItem}>Total: {total()}</span>
       <span className={statisticsItem}>
-        PositivePercentage: {positivePercentage()}
+        Positive Percentage: {positivePercentage()}
       </span>
     </div>
   );
