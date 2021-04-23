@@ -1,0 +1,20 @@
+.feedbackWrapper {
+  padding: 10px;
+}
+.button {
+  border-radius: 5px;
+  text-transform: capitalize;
+
+  background-color: rgba(208, 253, 222, 0.739);
+  border: 1 px solid rgb(158, 158, 158);
+
+  transition-duration: 200ms;
+
+  cursor: pointer;
+}
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+.button:hover {
+  transform: scale(0.9);
+}

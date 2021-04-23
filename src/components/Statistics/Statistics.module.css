@@ -1,0 +1,11 @@
+.statisticsWrapper {
+  margin: 10px auto;
+  width: fit-content;
+  text-align: left;
+}
+.statisticsItem {
+  display: block;
+}
+.statisticsItem:not(:last-child) {
+  margin-bottom: 5px;
+}
